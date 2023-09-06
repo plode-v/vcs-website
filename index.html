@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VCS Design</title>
+    <link rel="stylesheet" href="./styles.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./styles/navbar.css">
+<link rel="stylesheet" href="./styles/hero-banner.css">
+<link rel="stylesheet" href="./styles/products.css">
+</head>
+<body>
+    <section id="nav-section">
+        <nav id="navbar">
+            <div class="nav-left">
+                <a href="/" id="a-logo">
+                    <img src="./public/vcs-logo-white.png" alt="logo" id="navbar-logo">
+                </a>
+
+                <!-- about us -->
+                <section id="about-us-section">
+                    <div class="dropdown about-us">
+                        <button class="dropdown-button">
+                            <p>About Us</p>
+                        </button>
+                        <div class="dropdown-content">
+                            <div class="dropdown-header">
+                                <a href="https://www.google.com" target="_blank" class="dropdown-header-content">About Us</a>
+                            </div>
+                            <div class="dropdown-columns">
+                                <div class="dropdown-col">
+                                    <div>Cultures</div>
+                                    <a href="#" class="dropdown-item">History</a>
+                                    <a href="#" class="dropdown-item">VCS Way</a>
+                                    <a href="#" class="dropdown-item">Visions and Missions</a>
+                                </div>
+                                <div class="dropdown-col">
+                                    <div>Assurance</div>
+                                    <a href="#" class="dropdown-item">Our Customers</a>
+                                    <a href="#">Awards and Certificates</a>
+                                    <a href="#">Executives</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- products -->
+                <div class="dropdown our-businesses">
+                    <button class="dropdown-button">
+                        <p>Our Businesses</p>
+                    </button>
+                    <div class="dropdown-content">
+                        <div class="dropdown-header">
+                            <a href="#" class="dropdown-header-content">Products</a>
+                        </div>
+                        <div class="dropdown-columns">
+                            <div class="dropdown-col">
+                                <div>Industries</div>
+                                <a href="#">Automotives</a>
+                                <a href="#">Agriculture</a>
+                                <a href="#">Buy and Sell</a>
+                            </div>
+                            <div class="dropdown-col">
+                                <div>Products and Technologies</div>
+                                <a href="#">Machinery and Technology</a>
+                                <a href="#">Quality Assurance</a>
+                                <a href="#">Certificates</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Company -->
+                <div class="dropdown company">
+                    <button class="dropdown-button">
+                        <p>COMPANY</p>
+                    </button>
+                    <div class="dropdown-content">
+                        <div class="dropdown-header">
+                            <a href="#" class="dropdown-header-content">Company</a>
+                        </div>
+                        <div class="dropdown-columns">
+                            <div class="dropdown-col">
+                                <div>Company</div>
+                                <a href="#" class="dropdown-item">News and Events</a>
+                                <a href="#">Group of Companies</a>
+                                <a href="#" class="dropdown-item">Explore</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="nav-right">
+                <button>Contact Us</button>
+                <a href="#">
+                    <img src="./public/fb-icon.png" alt="facebook">
+                </a>
+                <a href="#">
+                    <img src="./public/yt-icon.png" alt="youtube">
+                </a>
+                <a href="#" id="language">
+                    <img src="./public/web-icon.png" alt="language" id="language-icon">
+                </a>
+            </div>
+        </nav>
+    </section>
+
+    <section id="hero-section">
+        <div id="hero-bar">
+            <div class="hero-text-wrapper">
+                <h1>Lorem Ipsum</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <button>Contact Us</button>
+            </div>
+        </div>
+        <div class="hero-img-wrapper">
+            <img src="./public/hero.png" alt="hero-banner" class="hero-img">
+        </div>
+    </section>
+
+    <section id="products-section">
+        <div class="products-header">
+            <h1>Lorem Ipsum</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit dolor Lorem ipsum dolor.</p>
+        </div>
+        <div class="products-menu">
+            <!-- FIXME: add href -->
+            <a>Automotive</a>
+            <a>Agriculture</a>
+            <a>Products and Technologies</a>
+        </div>
+        <div class="products">
+            <div class="products-wrapper">
+                <h1>Lorem ipsum dolor sit amet dolor</h1>
+
+            </div>
+        </div>
+    </section>
+    <script src="./index.js"></script>
+</body>
+</html>
