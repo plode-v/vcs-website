@@ -35,24 +35,29 @@
     display: flex;
     margin-top: 150px;
     justify-content: center;
-    gap: 50px;
 }
+
+.products-menu-wrapper {
+    border-bottom: #FAFAFA50 solid 3px;
+    padding: 5px 25px;
+}
+
+.products-menu-wrapper:active {
+    border-bottom: #FAFAFA solid 3px;
+}
+
 .products-menu a {
-    padding: 16px;
     font-size: 24px;
     font-weight: 500;
     color: #FAFAFA50;
     cursor: pointer;
-    border-bottom: #FAFAFA50 2px solid;
 }
 
 .products-menu a:hover {
-    color: #FAFAFA90;
-    border-bottom: #FAFAFA90 2px solid;
+    color: #FAFAFA99;
 }
 
 .products-menu a:active {
-    border-bottom: #FAFAFA 2px solid;
     color: #FAFAFA;
 }
 
@@ -63,19 +68,33 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 50px;
 }
 
 .products-wrapper {
-    width: 85vw;
+    width: 75vw;
     justify-content: center;
-    position: relative;
 }
 
 .products h1 {
     font-size: 50px;
-    position: absolute;
-    left: 0;
-    top: 50px;
+    margin: 0;
+    height: 250px;
     width: 450px;
     color: #FAFAFA;
+}
+
+.products button {
+    padding: 12px 60px;
+    font-size: 14px;
+    border-radius: 50px;
+    background-color: transparent;
+    border: solid #FAFAFA 1px;
+    color: #FAFAFA;
+    cursor: pointer;
+}
+
+.products button:hover {
+    background-color: #FAFAFA;
+    color: #0F2035;
 }
