@@ -1,0 +1,17 @@
+#customers-section {
+    height: 800px;
+    width: 100vw;
+    background-color: #FAFAFA;
+}
+
+.customers-header-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.customers-header-wrapper h1 {
+    color: #0F2035;
+    font-size: 30px;
+}
