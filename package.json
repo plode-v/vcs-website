@@ -1,0 +1,25 @@
+{
+  "name": "vcs-website",
+  "version": "1.0.0",
+  "description": "vcs landing page",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/plode-v/vcs-website.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/plode-v/vcs-website/issues"
+  },
+  "homepage": "https://github.com/plode-v/vcs-website#readme",
+
+  
+  "dependencies": {
+    "vercel": "^32.1.0"
+  }
+}
