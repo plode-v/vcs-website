@@ -1,0 +1,10 @@
+#footer-section {
+    height: 300px;
+    width: 100%;
+    background-color: #092F5D;
+}
+
+.footer h1 {
+    color: #fafafa;
+    margin: 0;
+}

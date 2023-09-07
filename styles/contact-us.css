@@ -1,0 +1,29 @@
+#contact-us-section {
+    height: auto;
+    width: 100%;
+    background-color: #FAFAFA;
+    padding: 50px 0 150px 0;
+}
+
+.contact-us {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-us h1 {
+    margin: 0;
+    margin-bottom: 80px;
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: 800;
+    color: #0F2035;
+}
+
+.map {
+    background-color: lightgray;
+    height: 500px;
+    width: 900px;
+    position: relative;
+}
