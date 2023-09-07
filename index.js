@@ -1,7 +1,8 @@
 let $ = document;
 
-function switchTab(tabId){
 
+// products page switch tabs
+function switchTab(tabId){
     let tabButton = $.querySelectorAll(".products-menu-button");
     tabButton.forEach(button => button.classList.remove('active'));
 
@@ -16,7 +17,24 @@ function switchTab(tabId){
     $.getElementById(tabId).classList.add('active');
 }
 
+
 // initialize first tab as active
 $.addEventListener('DOMContentLoaded', () => {
     siwtchTab('automotive-products')
 })
+
+// navbar hide on scroll
+    let lastScrollTop = 0;
+    const navbar = $.getElementById("navbar");
+
+    window.addEventListener('scroll', function() {
+        const scrollTop = window.scrollY || $.documentElement.scrollTop;
+
+        if (scrollTop > lastScrollTop) {
+            navbar.style.top = "-50px";
+        } else {
+            navbar.style.top = "0"
+        }
+
+        lastScrollTop = scrollTop;
+    })
