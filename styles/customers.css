@@ -1,5 +1,5 @@
 #customers-section {
-    height: 800px;
+    height: auto;
     width: 100vw;
     background-color: #FAFAFA;
 }
@@ -8,10 +8,108 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 50px;
+    padding: 30px 0 10px 0;
 }
 
 .customers-header-wrapper h1 {
     color: #0F2035;
     font-size: 30px;
+    text-transform: uppercase;
+}
+
+@keyframes slide-left {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+@keyframes slide-right {
+    from {
+        transform: translateX(-100%);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+
+.slider {
+    overflow: hidden;
+    padding: 10px 0;
+    background-color: rgb(233, 233, 233);
+    white-space: nowrap;
+}
+
+
+.top .slide {
+    display: inline-block;
+    animation: slide-left 60s infinite linear;
+    mix-blend-mode: multiply;
+}
+
+.slide img {
+    height: 100px;
+    width: 160px;
+    margin: 5px 10px;
+}
+
+.bottom .slide {
+    display: inline-block;
+    animation: slide-right 60s infinite linear;
+}
+
+/* TESTIMONIALS */
+.testimonials {
+    height: 700px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    background-color: #0F2035;
+    gap: 70px;
+}
+
+.testimonials .card {
+    width: 23rem;
+    margin: 7rem 0;
+    border-radius: 20px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    background-color: #FAFAFA;
+    position: relative;
+}
+
+.card div {
+    height: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card .card-logo img {
+    height: 140px;
+    width: 140px;
+    border-radius: 100px;
+    border: 1px solid black;
+    background-color: white;
+}
+
+.card .description {
+    height: fit-content;
+    display: block;
+}
+
+.card .description h1 {
+    color: #0F2035;
+    margin: 10px 0;
+    text-align: center;
+}
+
+.card .description p {
+    color: #0F203599;
+    padding: 0 40px;
+    text-align: center;
+    font-size: 16px;
 }

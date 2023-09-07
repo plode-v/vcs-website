@@ -1,5 +1,5 @@
 #products-section {
-    height: 1050px;
+    height: 1100px;
     background: linear-gradient(#0F2035 50%, #092F5D 100%);
 }
 
@@ -37,13 +37,13 @@
     justify-content: center;
 }
 
-.products-menu-wrapper {
-    border-bottom: #FAFAFA50 solid 3px;
+.products-menu-button {
+    border-bottom: #FAFAFA50 solid 2px;
     padding: 5px 25px;
 }
 
-.products-menu-wrapper:active {
-    border-bottom: #FAFAFA solid 3px;
+.products-menu-button.active {
+    border-bottom: #FAFAFA solid 2px;
 }
 
 .products-menu a {
@@ -57,18 +57,10 @@
     color: #FAFAFA99;
 }
 
-.products-menu a:active {
+.products-menu .active a {
     color: #FAFAFA;
 }
 
-/* FIXME: SUEDO ACTIVE */
-.products-menu-wrapper.active a {
-    color: #FAFAFA;
-}
-
-.products-menu-wrapper.active {
-    border-bottom: #FAFAFA solid 3px;
-}
 
 /* PRODUCTS */
 
@@ -81,12 +73,17 @@
 }
 
 .products-wrapper {
-    width: 75vw;
+    display: none;
+    width: 60vw;
     height: 500px;
     justify-content: center;
     object-fit: contain;
     position: relative;
     overflow: hidden;
+}
+
+.products-wrapper.active {
+    display: block;
 }
 
 .products h1 {

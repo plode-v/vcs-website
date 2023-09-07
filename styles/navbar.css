@@ -159,7 +159,7 @@
     font-weight: 700;
 }
 
-.nav-right button:active {
+.nav-right button:hover {
     background-color: #FAFAFA;
     color: #092F5D;
 }

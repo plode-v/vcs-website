@@ -133,19 +133,30 @@
         <div class="products-menu">
             <!-- FIXME: add href -->
             <!-- FIXME: duration on hover -->
-            <div class="products-menu-wrapper active">
-                <a>Automotive</a>
+            <!-- FIXME: ADD animation when change tabs -->
+            <div class="products-menu-button active" onclick="switchTab('automotive-products')">
+                <a class="automotive acitve">Automotive</a>
             </div>
-            <div class="products-menu-wrapper">
+            <div class="products-menu-button agriculture" onclick="switchTab('agriculture-products')">
                 <a>Agriculture</a>
             </div>
-            <div class="products-menu-wrapper">
+            <div class="products-menu-button technologies" onclick="switchTab('technologies-products')">
                 <a>Products and Technologies</a>
             </div>
         </div>
         <div class="products">
-            <div class="products-wrapper">
-                <h1>Lorem ipsum dolor sit amet dolor</h1>
+            <div class="products-wrapper active" id="automotive-products">
+                <h1>Lorem ipsum dolor sit amet dolor ONE</h1>
+                <button>See more</button>
+                <div class="product-img">example product img</div>
+            </div>
+            <div class="products-wrapper" id="agriculture-products">
+                <h1>Lorem ipsum dolor sit amet dolor TWO</h1>
+                <button>See more</button>
+                <div class="product-img">example product img</div>
+            </div>
+            <div class="products-wrapper" id="technologies-products">
+                <h1>Lorem ipsum dolor sit amet dolor THREE</h1>
                 <button>See more</button>
                 <div class="product-img">example product img</div>
             </div>
@@ -154,7 +165,114 @@
 
     <section id="customers-section">
         <div class="customers-header-wrapper">
-            <h1>Our Customers</h1>
+            <h1>Trusted By</h1>
+
+            <!-- top sliders -->
+        </div>
+        <div class="slider top">
+            <div class="slide">
+                <img src="./public/logos/Honda Logo Vector.svg" alt="honda">
+                <img src="./public/logos/Toyota Logo Vector.svg" alt="toyota">
+                <img src="./public/logos/Isuzu.svg" alt="isuzu">
+                <img src="./public/logos/Kubota_Logo.svg" alt="kubota-logo">
+                <img src="" alt="kubota-krda-logo">
+                <img src="./public/logos/hino-diesel-trucks.svg" alt="hino-truck-logo">
+                <img src="./public/logos/Mitsubishi_Motors_SVG_logo.svg" alt="mitsubishi">
+                <img src="./public/logos/Nissan_2020_logo.svg" alt="nissan">
+                <img src="./public/logos/Yanmar_logo_2013_full.svg" alt="yanmar">
+                <img src="./public/logos/Komatsu_company_logos.svg" alt="komatsu">
+                <img src="./public/logos/MG-logo.svg" alt="mg-logo">
+                <img src="./public/logos/gwm-logo.png" alt="gwm">
+                <img src="" alt="denso">
+                <img src="" alt="logisnext">
+                <img src="./public/logos/Honda_Wing_Logo.svg" alt="honda-wing">
+            </div>
+            <!-- paste top section here -->
+            <div class="slide">
+                <img src="./public/logos/Honda Logo Vector.svg" alt="honda">
+                <img src="./public/logos/Toyota Logo Vector.svg" alt="toyota">
+                <img src="./public/logos/Isuzu.svg" alt="isuzu">
+                <img src="./public/logos/Kubota_Logo.svg" alt="kubota-logo">
+                <img src="" alt="kubota-krda-logo">
+                <img src="./public/logos/hino-diesel-trucks.svg" alt="hino-truck-logo">
+                <img src="./public/logos/Mitsubishi_Motors_SVG_logo.svg" alt="mitsubishi">
+                <img src="./public/logos/Nissan_2020_logo.svg" alt="nissan">
+                <img src="./public/logos/Yanmar_logo_2013_full.svg" alt="yanmar">
+                <img src="./public/logos/Komatsu_company_logos.svg" alt="komatsu">
+                <img src="./public/logos/MG-logo.svg" alt="mg-logo">
+                <img src="./public/logos/gwm-logo.png" alt="gwm">
+                <img src="" alt="denso">
+                <img src="" alt="logisnext">
+                <img src="./public/logos/Honda_Wing_Logo.svg" alt="honda-wing">
+            </div>
+        </div>
+
+        <div class="testimonials">
+            <div class="card">
+                <div class="card-logo">
+                    <img src="" alt="">
+                </div>
+                <div class="description">
+                    <h1>Lorem Ipsum</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Amet consectetur adipiscing elit ut aliquam purus sit amet. Sagittis nisl rhoncus mattis rhoncus urna neque viverra.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-logo">
+                    <img src="" alt="">
+                </div>
+                <div class="description">
+                    <h1>Lorem Ipsum</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Amet consectetur adipiscing elit ut aliquam purus sit amet. Sagittis nisl rhoncus mattis rhoncus urna neque viverra.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-logo">
+                    <img src="" alt="">
+                </div>
+                <div class="description">
+                    <h1>Lorem Ipsum</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Amet consectetur adipiscing elit ut aliquam purus sit amet. Sagittis nisl rhoncus mattis rhoncus urna neque viverra.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- bottom slider -->
+        <div class="slider bottom">
+            <div class="slide">
+                <img src="" alt="">
+                <img src="" alt="">
+                <img src="" alt="">
+                <img src="" alt="">
+                <img src="" alt="">
+                <img src="" alt="">
+                <img src="" alt="">
+                <img src="" alt="">
+                <img src="" alt="">
+                <img src="" alt="">
+                <img src="" alt="">
+                <img src="" alt="">
+                <img src="" alt="">
+                <img src="" alt="">
+                <img src="" alt="">
+            </div>
+            <div class="slide">
+                <img src="" alt="">
+                <img src="" alt="">
+                <img src="" alt="">
+                <img src="" alt="">
+                <img src="" alt="">
+                <img src="" alt="">
+                <img src="" alt="">
+                <img src="" alt="">
+                <img src="" alt="">
+                <img src="" alt="">
+                <img src="" alt="">
+                <img src="" alt="">
+                <img src="" alt="">
+                <img src="" alt="">
+                <img src="" alt="">
+            </div>
         </div>
     </section>
     <script src="./index.js"></script>
