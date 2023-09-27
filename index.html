@@ -6,6 +6,186 @@
     <title>VCS Design</title>
     <link rel="stylesheet" href="./styles.css">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <style>
+        /* Navbar */
+
+        #nav-section {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: fixed;
+            top: 0;
+            width: 100vw;
+            z-index: 10;
+        }
+
+        #navbar {
+            margin: 12px;
+            width: 100%;
+            height: 70px;
+            background-color: #092F5D;
+            display: flex;
+            justify-content: space-between;
+        }
+
+
+        /* Left */
+        .nav-left {
+            display: flex;
+            color: #FAFAFA;
+            align-items: center;
+            margin-left: 20px;
+        }
+
+        #a-logo {
+            cursor: pointer;
+            display: inline-block;
+            margin-right: 40px;
+        }
+
+        #navbar-logo {
+            height: 35px;
+        }
+
+
+        /* DROPDOWN */
+        .dropdown {
+            display: inline-block;
+        }
+
+        .dropdown-button {
+            background-color: transparent;
+            border: none;
+            cursor: pointer;
+            height: 70px;
+            padding: 0 15px
+        }
+
+        .dropdown-button:hover {
+            border-bottom: white 1px solid;
+        }
+
+        .dropdown-button:active {
+            background-color: #FAFAFA;
+        }
+
+        #navbar .dropdown-button p {
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            font-size: 16px;
+            color: #FAFAFA;
+        }
+
+        #navbar .dropdown-button p:active {
+            color: #092F5D;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #092F5D;
+            left: 12px;
+            right: 12px;
+            z-index: 1;
+            padding-bottom: 40px;
+        }
+
+        .dropdown-header {
+            display: block;
+            border-top: white solid 1px;
+            border-bottom: white solid 1px;
+        }
+
+        .dropdown-header-content{
+            letter-spacing: 5px;
+            text-transform: capitalize;
+            font-size: 40px;
+            font-weight: 800;
+            padding: 50px 70px;
+            cursor: pointer;
+        }
+
+        .dropdown-item, a {
+            display: grid;
+            grid-row: unset;
+            padding: 12px 16px;
+            text-decoration: none;
+            color: white;
+            font-size: 18px;
+            text-transform: capitalize;
+        }
+
+        .dropdown-content a:hover {
+            background-color: #FAFAFA;
+            color: #092F5D;
+            transition: 80ms linear;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        .dropdown-columns {
+            columns: 2;
+        }
+
+        .dropdown-col {
+            padding: 0 20px;
+        }
+
+        .dropdown-col div {
+            font-size: 14px;
+            color: #ffffff90;
+            font-weight: 400;
+            padding: 50px 0 15px;
+            border-bottom: 1px white solid;
+        }
+
+        .dropdown-col a {
+            border-bottom: 1px solid white;
+        }
+
+        .company .dropdown-columns {
+            columns: 1;
+        }
+
+
+        /* RIGHT */
+        .nav-right {
+            justify-items: center;
+            display: flex;
+            align-items: center;
+            gap: 1.1rem;
+        }
+
+        .nav-right button {
+            border: 2.5px white solid;
+            padding: 10px 20px;
+            border-radius: 100px;
+            background-color: transparent;
+            color: #FAFAFA;
+            cursor: pointer;
+            font-weight: 700;
+        }
+
+        .nav-right button:hover {
+            background-color: #FAFAFA;
+            color: #092F5D;
+        }
+
+        .nav-right a, .nav-right img {
+            width: 1.2rem;
+            height: 1.2rem;
+            padding: 0;
+        }
+
+        #language, #language-icon {
+            margin-right: 45px;
+            height: 1.5rem;
+            width: 1.5rem;
+        }
+    </style>
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
