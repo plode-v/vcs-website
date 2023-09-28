@@ -1,0 +1,38 @@
+#new-customers-section {
+    height: auto;
+    width: 100vw;
+}
+
+.new-customers-header-wrapper {
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    padding: 5px 0;
+}
+
+.new-customers-header-wrapper h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 32px;
+}
+
+.logo-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%; /* or whatever height you prefer */
+}
+
+.logo-grid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 10px; /* space between logos */
+}
+
+.logo-cell img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto; /* center the logo images in their cells */
+}

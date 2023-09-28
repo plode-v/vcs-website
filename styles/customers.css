@@ -47,13 +47,13 @@
 
 .top .slide {
     display: inline-block;
-    animation: slide-left 60s infinite linear;
+    animation: slide-left 10s infinite linear;
     mix-blend-mode: multiply;
 }
 
 .slide img {
-    height: 80px;
-    width: 140px;
+    height: 100px;
+    width: 100px;
     filter: grayscale(100);
     opacity: 45%;
     margin: 5px 10px;
@@ -61,7 +61,7 @@
 
 .bottom .slide {
     display: inline-block;
-    animation: slide-right 60s infinite linear;
+    animation: slide-right 80s infinite linear;
 }
 
 /* TESTIMONIALS */

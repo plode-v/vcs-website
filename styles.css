@@ -1,3 +1,12 @@
+@keyframes fade {
+    100% {
+        opacity: 100%;
+    }
+    0% {
+        opacity: 0%;
+    }
+}
+
 html, body {
     margin: 0;
     padding: 0;
@@ -7,4 +16,16 @@ html, body {
 
 ::-webkit-scrollbar {
     display: none;
+}
+
+
+.logo-grid {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    place-items: center;
+}
+
+.logo-grid img {
+    max-width: 120px;
+    height: 120px;
 }

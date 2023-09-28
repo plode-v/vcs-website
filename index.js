@@ -1,4 +1,34 @@
 let $ = document;
+const logos = [
+    "http://125.25.57.91:8081/wp-content/uploads/2023/07/Picture14.png",
+    "http://125.25.57.91:8081/wp-content/uploads/2023/07/Picture21.png",
+    "http://125.25.57.91:8081/wp-content/uploads/2023/07/Picture22.png",
+    "http://125.25.57.91:8081/wp-content/uploads/2023/07/Picture20.png",
+    "http://125.25.57.91:8081/wp-content/uploads/2023/07/Picture23.png",
+    "http://125.25.57.91:8081/wp-content/uploads/2023/07/Picture13.png",
+    "http://125.25.57.91:8081/wp-content/uploads/2023/07/Picture24.png",
+    "http://125.25.57.91:8081/wp-content/uploads/2023/07/Picture25.png",
+    "http://125.25.57.91:8081/wp-content/uploads/2023/07/Picture26.png",
+    "http://125.25.57.91:8081/wp-content/uploads/2023/07/Picture17.png",
+    "http://125.25.57.91:8081/wp-content/uploads/2023/07/Picture27.png",
+    "http://125.25.57.91:8081/wp-content/uploads/2023/07/Picture28.png",
+    "http://125.25.57.91:8081/wp-content/uploads/2023/07/Picture29.png",
+    "http://125.25.57.91:8081/wp-content/uploads/2023/07/Picture16.png",
+    "http://125.25.57.91:8081/wp-content/uploads/2023/07/Picture13.png",
+    "http://125.25.57.91:8081/wp-content/uploads/2023/07/Picture14.png",
+    "http://125.25.57.91:8081/wp-content/uploads/2023/07/Picture21.png",
+    "http://125.25.57.91:8081/wp-content/uploads/2023/07/Picture22.png",
+    "http://125.25.57.91:8081/wp-content/uploads/2023/07/Picture20.png",
+    'http://125.25.57.91:8081/wp-content/uploads/2023/07/Picture23.png',
+    "http://125.25.57.91:8081/wp-content/uploads/2023/07/Picture24.png",
+    "http://125.25.57.91:8081/wp-content/uploads/2023/07/Picture25.png",
+    "http://125.25.57.91:8081/wp-content/uploads/2023/07/Picture26.png",
+    'http://125.25.57.91:8081/wp-content/uploads/2023/07/Picture17.png',
+    "http://125.25.57.91:8081/wp-content/uploads/2023/07/Picture27.png",
+    'http://125.25.57.91:8081/wp-content/uploads/2023/07/Picture28.png',
+    "http://125.25.57.91:8081/wp-content/uploads/2023/07/Picture29.png",
+    "http://125.25.57.91:8081/wp-content/uploads/2023/07/Picture16.png"
+]
 
 
 // products page switch tabs
@@ -38,3 +68,24 @@ $.addEventListener('DOMContentLoaded', () => {
 
         lastScrollTop = scrollTop;
     })
+
+
+// randomly looping through costomer's logos
+const logoGrid = document.querySelector('.logo-grid')
+
+const getRandomImgSrc = () => {
+    const randomIndex = Math.floor(Math.random() * logos.length);
+    return logos[randomIndex]
+}
+
+const updateLogoGrid = () => {
+    const logoElement = logoGrid.querySelectorAll('img');
+
+    logoElement.forEach((src) => {
+        const randomImgSrc = getRandomImgSrc();
+        src.src = randomImgSrc;
+    })
+}
+
+updateLogoGrid();
+setInterval(updateLogoGrid, 3500);
