@@ -20,12 +20,10 @@ html, body {
 
 
 .logo-grid {
-    display: grid;
-    grid-template-columns: repeat(8, 1fr);
     place-items: center;
 }
 
 .logo-grid img {
-    max-width: 120px;
-    height: 120px;
+    height: 100px;
+    width: 100px;
 }
