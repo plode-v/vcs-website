@@ -17,13 +17,3 @@ html, body {
 ::-webkit-scrollbar {
     display: none;
 }
-
-
-.logo-grid {
-    place-items: center;
-}
-
-.logo-grid img {
-    height: 100px;
-    width: 100px;
-}
