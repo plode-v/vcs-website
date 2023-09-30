@@ -270,9 +270,13 @@ companies.map(({ name, map, phone, email, email2, img, address }) => {
 
         if (!email2) {
             companyEmailElement2.style.display = 'none'
-        } else {
+        } if (!email) {
+            companyEmailElement.style.display = 'none'
+        } else if (email2) {
             companyEmailElement2.style.display = 'flex'
             companyEmailElement2.style.margin = '10px'
+        } else if (email) {
+            companyEmailElement.style.display = 'flex'
         }
 
         companyEmailElement2.textContent = `Email: ${email2}`
@@ -285,6 +289,8 @@ companies.map(({ name, map, phone, email, email2, img, address }) => {
         companyAddressElement.textContent = address;
         companyImageElement.src = img;
         companyMapElement.src = map;
+
+
 
 
         modal.style.display = 'block'
