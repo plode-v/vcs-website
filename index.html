@@ -524,8 +524,28 @@
     <section id="contact-us-section">
         <div class="contact-us">
             <h1>Contact Us</h1>
-            <div class="map">
+            <div class="companies-section">
+                <div id="modal" class="modal">
+                    <div class="modal-content">
+                        <div class="modal-left">
+                            <div class="modal-company-logo">
+                                <img id="companyImage">
+                            </div>
+                            <div class="modal-company-info">
+                                <p id="companyName"></p>
+                                <p id="companyAddress"></p>
+                                <p id="companyPhone"></p>
+                                <p id="companyEmail"></p>
+                            </div>
+                        </div>
+                        <div class="modal-right">
+                            <iframe id="companyMap"></iframe>
+                            <button id="modal-exit">X</button>
+                        </div>
+                    </div>
+                </div>
             </div>
+            <div id="overlay"></div>
         </div>
     </section>
 
