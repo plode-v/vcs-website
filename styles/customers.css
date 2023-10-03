@@ -71,12 +71,12 @@
     display: flex;
     justify-content: center;
     background-color: #0F2035;
-    gap: 70px;
+    gap: 4rem;
 }
 
 .testimonials .card {
-    width: 23rem;
-    margin: 7rem 0;
+    width: 380px;
+    margin: 7em 0;
     border-radius: 20px;
     display: block;
     justify-content: center;
@@ -107,13 +107,80 @@
 
 .card .description h1 {
     color: #0F2035;
-    margin: 10px 0;
+    margin: 0 0 10px 0;
     text-align: center;
+    font-size: 1.75rem;
+    font-weight: 700;
 }
 
 .card .description p {
     color: #0F203599;
-    padding: 0 40px;
+    padding: 0 30px;
     text-align: center;
-    font-size: 16px;
+    line-height: 1.5;
+    font-size: 15px;
+}
+
+@media only screen and (max-width:1024px) {
+    .testimonials {
+        height: 400px;
+        gap: 2rem;
+    }
+    
+    .testimonials .card {
+        width: 200px;
+        margin: 3rem 0;
+    }
+    
+    .card div {
+        height: 35%;
+    }
+    
+    .card .card-logo img {
+        height: 80px;
+        width: 80px;
+    }
+    
+    .card .description h1 {
+        margin-bottom: 5px;
+        font-size: 1rem;
+    }
+    
+    .card .description p {
+        padding: 0 10px;
+        line-height: 1.4;
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width:767px) {
+    .testimonials {
+        height: 300px;
+        gap: 1rem
+    }
+    
+    .testimonials .card {
+        width: 100px;
+        margin: 1.5rem 0;
+    }
+    
+    .card div {
+        height: 30%;
+    }
+    
+    .card .card-logo img {
+        height: 50px;
+        width: 50px;
+    }
+    
+    .card .description h1 {
+        margin-bottom: 5px;
+        font-size: 10px;
+    }
+    
+    .card .description p {
+        padding: 0 5px;
+        font-size: 8px;
+        line-height: 1.3;
+    }
 }

@@ -42,3 +42,48 @@
     height: 130px;
     width: auto;
 }
+
+@media only screen and (max-width:1024px) {
+    
+    .new-customers-header-wrapper h1 {
+        font-size: 24px;
+        margin-bottom: 0;
+    }
+    
+    .logo-grid {
+        gap: 30px;
+    }
+    
+    .logo-grid img {
+        height: 80px;
+        width: 80px;
+    }
+}
+
+@media only screen and (max-width:767px) {
+    .new-customers-header-wrapper h1 {
+        font-size: 16px;
+        margin-bottom: 0;
+    }
+    
+    .logo-grid {
+        gap: 10px;
+    }
+    
+    .logo-grid img {
+        height: 40px;
+        width: 40px;
+    }
+}
+
+@media only screen and (min-width:2250px) {
+    #new-customers-section {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #new-customers-wrapper {
+        width: 50vw;
+    }
+}
