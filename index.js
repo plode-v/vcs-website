@@ -211,11 +211,18 @@ $.addEventListener('DOMContentLoaded', () => {
         lastScrollTop = scrollTop;
     })
 
+
 const updateLogoGrid = (logoGrid, logos, currentIndex, interval) => {
     const logoElements = logoGrid.querySelectorAll('img');
     logoElements.forEach(img => {
         img.src = logos[currentIndex];
+        setInterval(() => {
+            img.style.opacity = .5;
+            img.style.opacity = 1;
+        }, 100)
     });
+
+    // logoElements[currentIndex].style.opacity = 1;
     
     // Toggle between consecutive indices
     if (currentIndex === 0 || currentIndex === 1) {
@@ -234,19 +241,68 @@ const updateLogoGrid = (logoGrid, logos, currentIndex, interval) => {
 
 const intervals = {};
 
-const resetRandomInterval = (logoGrid, logos, currentIndex, interval) => {
+const resetRandomInterval = (logoGrid, logos, currentIndex) => {
     if(intervals[logoGrid.classList]){
         clearInterval(intervals[logoGrid.classList]);
     }
     intervals[logoGrid.classList] = setInterval(() => {
-        currentIndex = updateLogoGrid(logoGrid, logos, currentIndex, interval);
-    }, interval);
+        currentIndex = updateLogoGrid(logoGrid, logos, currentIndex, 3000);
+    }, 3000);
 }
 
 logoGrids.map(({ selector, initialIndex, interval }) => {
     let logoElement = $.querySelector(selector);
     updateLogoGrid(logoElement, logos, initialIndex, interval)
 })
+
+
+// const updateLogoGrid = (logoGrid, logos, currentIndex, interval) => {
+//     const logoElements = logoGrid.querySelectorAll('img');
+
+//     // Fade out the current image
+//     logoElements[currentIndex].style.opacity = 0;
+
+//     // Toggle between consecutive indices
+//     if (currentIndex === 0 || currentIndex === 1) {
+//         currentIndex = 1 - currentIndex;
+//     } else if (currentIndex % 2 === 0) {
+//         currentIndex = currentIndex + 1;
+//     } else {
+//         currentIndex = currentIndex - 1;
+//     }
+
+//     // Preload the next image to avoid flickering during transition
+//     const nextIndex = currentIndex === 0 ? 1 : 0;
+//     const nextImage = new Image();
+//     nextImage.src = logos[nextIndex];
+
+//     // Fade in the next image after a short delay
+//     setTimeout(() => {
+//         logoElements[currentIndex].src = logos[currentIndex];
+//         logoElements[currentIndex].style.opacity = 1;
+//     }, 300);
+
+//     // Reset the interval with a new random value
+//     resetRandomInterval(logoGrid, logos, currentIndex, interval);
+
+//     return currentIndex; // return the updated index
+// }
+
+// const intervals = {};
+
+// const resetRandomInterval = (logoGrid, logos, currentIndex, interval) => {
+//     if (intervals[logoGrid.classList]) {
+//         clearInterval(intervals[logoGrid.classList]);
+//     }
+//     intervals[logoGrid.classList] = setInterval(() => {
+//         currentIndex = updateLogoGrid(logoGrid, logos, currentIndex, interval);
+//     }, interval); // Use the provided interval value
+// }
+
+// logoGrids.forEach(({ selector, initialIndex, interval }) => {
+//     let logoElement = document.querySelector(selector);
+//     updateLogoGrid(logoElement, logos, initialIndex, interval);
+// });
 
 
 // MAP SECTION
