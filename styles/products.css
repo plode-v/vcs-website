@@ -40,7 +40,7 @@ html, body {
     margin: 0;
     font-weight: 400;
     margin-top: 35px;
-    font-size: 2rem;
+    font-size: 24px;
     width: 800px;
     line-height: 130%;
 }
@@ -103,13 +103,14 @@ html, body {
 }
 
 .products h1 {
-    font-size: 50px;
+    font-size: 30px;
     margin: 0;
     height: 250px;
     width: 450px;
     color: #FAFAFA;
     z-index: 2;
     position: inherit;
+    text-transform: capitalize;
 }
 
 .products button {
