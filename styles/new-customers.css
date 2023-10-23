@@ -24,25 +24,6 @@
     align-items: center;
 }
 
-.logo-grid {
-    width: 80%;
-    padding: 30px 0;
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    place-items: center;
-    gap: 50px 0;
-}
-
-.logo-grid div {
-    display: flex;
-    justify-content: center;
-}
-
-.logo-grid img {
-    height: 130px;
-    width: auto;
-}
-
 @media only screen and (max-width:1024px) {
     
     .new-customers-header-wrapper h1 {
@@ -85,5 +66,67 @@
 
     #new-customers-wrapper {
         width: 50vw;
+    }
+}
+
+
+/* new-customers-fade */
+
+.logo-grid-new {
+    width: 80%;
+    padding: 30px 0;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    place-items: center;
+    gap: 50px 0;
+    height: 500px;
+}
+
+.logo-img-wrapper {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-img-wrapper img {
+    position: absolute;
+    width: 130px;
+}
+
+.top {
+    animation-name: top-fade;
+    animation-timing-function: ease-in-out;
+    animation-duration: 5s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+
+.bottom {
+    animation-name: bottom-fade;
+    animation-timing-function: ease-in-out;
+    animation-duration: 5s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes top-fade {
+    0% {
+        opacity: 0;
+    }    
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes bottom-fade {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
     }
 }
