@@ -7,7 +7,7 @@ const companies = [
         address: "เลขที่ 8 ม.3 ถ.บ้านคลองใหม่-บางควาย ต.หนองจอก อ.บางปะกง ฉะเชิงเทรา 24130",
         phone: "038-578528-30", 
         email: "marketing@vcsthailand.co.th", 
-        img: "http://125.25.57.91:8081/wp-content/uploads/2023/07/Picture10-1.png" 
+        img: "https://vcsgroupthai.com/webvcs/wp-content/uploads/2023/07/Picture10-1.png" 
     },
     { 
         name: "บริษัท วี.ซี.เอส. จำกัด สำนักงานใหญ่",
@@ -15,7 +15,7 @@ const companies = [
         address: 'เลขที่ 656 ถ.วงศ์สว่าง แขวงวงศ์สว่าง เขตบางซื่อ กรุงเทพฯ 10800',
         phone: "02-9130500-3",
         email: "hrvcsgroup@hotmail.com",
-        img: "http://125.25.57.91:8081/wp-content/uploads/2023/07/Picture8-1.png"
+        img: "https://vcsgroupthai.com/webvcs/wp-content/uploads/2023/07/Picture8-1.png"
     },
     {
         name: "บริษัท บี.วี.เอส. แมนูแฟคเจอริ่ง จำกัด",
@@ -23,7 +23,7 @@ const companies = [
         address: "เลขที่ 46 ม.3 ถ.บ้านคลองใหม่-บางควาย ต.หนองจอก อ.บางปะกง ฉะเชิงเทรา 24130",
         phone: "038-578-585-90",
         email: "hrm@bvs.co.th",
-        img: "http://125.25.57.91:8081/wp-content/uploads/2023/07/Picture15-1.png"
+        img: "https://vcsgroupthai.com/webvcs/wp-content/uploads/2023/07/Picture15-1.png"
     },
     {
         name: 'บริษัท ไทยคิน แมนูแฟคเจอริ่ง จำกัด',
@@ -31,7 +31,7 @@ const companies = [
         address: "เลขที่ 84/14,84/15 ม.9 ตำบลบางวัว อำเภอบางปะกง จังหวัดฉะเชิงเทรา",
         phone: '038-134-346-8',
         email: 'kreangsak@kokenthailand.com',
-        img: 'http://125.25.57.91:8081/wp-content/uploads/2023/07/Picture1.png'
+        img: 'https://vcsgroupthai.com/webvcs/wp-content/uploads/2023/07/Picture1.png'
     },
     {
         name: 'บริษัท เอ.เอ.เอ. แมนูเฟคเจอริ่ง จำกัด',
@@ -39,7 +39,7 @@ const companies = [
         address: "เลขที่ 8/1 ม.3 ต.หนองจอก อ.บางปะกง ฉะเชิงเทรา 24130",
         phone: '038-578471-6',
         email: 'mkt@aaa.co.th',
-        img: 'http://125.25.57.91:8081/wp-content/uploads/2023/07/Picture14-1.png'
+        img: 'https://vcsgroupthai.com/webvcs/wp-content/uploads/2023/07/Picture14-1.png'
     },
     {
         name: 'บริษัท โคเค็น (ไทยแลนด์) จำกัด',
@@ -47,7 +47,7 @@ const companies = [
         address: 'เลขที่ 46 ม.3 ถ.บ้านคลองใหม่-บางควาย ต.หนองจอก อ.บางปะกง ฉะเชิงเทรา 24130',
         phone: '02-9130500-3 ต่อ 666',
         email: "kreangsak@kokenthailand.com",
-        img: "http://125.25.57.91:8081/wp-content/uploads/2023/07/Screenshot-2023-07-12-090701.png"
+        img: "https://vcsgroupthai.com/webvcs/wp-content/uploads/2023/07/Picture9-1.png"
     },
     {
         name: "บริษัท เอ เอ ไฟน์ แบล๊งกิ๊ง จำกัด",
@@ -56,7 +56,7 @@ const companies = [
         phone: "038-578293-5",
         email: 'p_kitti@aafb.co.th',
         email2: 'n_ronnarong@aafb.co.th',
-        img: "http://125.25.57.91:8081/wp-content/uploads/2023/07/Picture4-1.png",
+        img: "https://vcsgroupthai.com/webvcs/wp-content/uploads/2023/07/Picture4-1.png",
     },
     {
         name: "บริษัท บีเอสเพรส จำกัด",
@@ -64,7 +64,7 @@ const companies = [
         address: "เลขที่ 288, 288/1,416 ม.8 ถนนสุขสวัสดิ์ แขวงราษฎร์บูรณะ เขตราษฎร์บูรณะ กทม. 10140",
         phone: '02-427-5331 | 02-427-1894',
         email: 'bspressgroup@yahoo.com',
-        img: "http://125.25.57.91:8081/wp-content/uploads/2023/07/Screenshot-2023-07-12-091356.png"
+        img: "https://vcsgroupthai.com/webvcs/wp-content/uploads/2023/07/Picture13-1.png"
     },
     {
         name: "บริษัท ไทย โคเค็น โคเงียว จำกัด",
@@ -72,7 +72,7 @@ const companies = [
         address: "เลขที่ 4 ซ.ปานทิพย์ 2 ถ.วงศ์สว่าง แขวงวงศ์สว่าง เขตบางซื่อ กทม. 10800",
         phone: "02-913-0962",
         email: 'pi@thaikoken.com',
-        img: 'http://125.25.57.91:8081/wp-content/uploads/2023/07/Picture2-1.png'
+        img: 'https://vcsgroupthai.com/webvcs/wp-content/uploads/2023/07/Picture2-1.png'
     },
     {
         name: "บริษัท อะตอม แมนูแฟคเจอริ่ง จำกัด",
@@ -80,7 +80,7 @@ const companies = [
         address: "เลขที่ 1567 ถ.ประชาราษฎร์ 1 แขวงวงศ์สว่าง เขตบางซื่อ กทม. 10800",
         phone: "02-912-2801-2 | 02-912-2811-3",
         email: 'atom_hr2555@hotmail.com',
-        img: "http://125.25.57.91:8081/wp-content/uploads/2023/07/Picture11-1.png"
+        img: "https://vcsgroupthai.com/webvcs/wp-content/uploads/2023/07/Picture11-1.png"
     },
     {
         name: "บริษัท ไทยคิน อินดัสทรี (ประเทศไทย) จำกัด",
@@ -88,7 +88,7 @@ const companies = [
         address: "เลขที่ 527 / 7 ถ.วงศ์สว่าง แขวงวงศ์สว่าง เขตบางซื่อ กทม. 10800",
         phone: "02-556-0125-7",
         email: "hr@thaikin.com",
-        img: "http://125.25.57.91:8081/wp-content/uploads/2023/07/Screenshot-2023-07-12-091427.png"
+        img: "https://vcsgroupthai.com/webvcs/wp-content/uploads/2023/07/Picture3-1.png"
     },
     {
         name: "บริษัท ซันชายน์ เอเชีย จำกัด",
@@ -96,7 +96,7 @@ const companies = [
         address: "เลขที่ 98-108 ซ.วัดเลียบราษฎร์บำรุง ถ.วงศ์สว่าง แขวงวงศ์สว่าง เขตบางซื่อ กทม. 10800",
         phone: "02-910-7361",
         email: "taweesak_pv@gmail.com",
-        img: "http://125.25.57.91:8081/wp-content/uploads/2023/07/Picture5-1.png"
+        img: "https://vcsgroupthai.com/webvcs/wp-content/uploads/2023/07/Picture5-1.png"
     },
     {
         name: "บริษัท ชิมิสึ แมนนิวแฟคเจอร์ริ่ง จำกัด",
@@ -104,7 +104,7 @@ const companies = [
         address: "เลขที่ 230 ม.2 ถ.ประชาพัฒนา แขวงทับยาว เขตลาดกระบัง กทม. 10520",
         phone: "02-172-9637-8",
         email: "shimizu_thai@hotmail.com",
-        img: "http://125.25.57.91:8081/wp-content/uploads/2023/07/Picture6-1.png"
+        img: "https://vcsgroupthai.com/webvcs/wp-content/uploads/2023/07/Picture6-1.png"
     },
     {
         name: "บริษัท วีซีที-09 จำกัด",
@@ -112,47 +112,47 @@ const companies = [
         map: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3874.0966151091666!2d100.5326846004305!3d13.833236699999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30e29c83b5876323%3A0x98b2644b35da5918!2z4Lia4LiI4LiBLiDguKfguLXguIvguLXguJfguLUtMDk!5e0!3m2!1sen!2sth!4v1696054450001!5m2!1sen!2sth",
         phone: "02-922-3027-8",
         email: "vct@vct09.com",
-        img: "http://125.25.57.91:8081/wp-content/uploads/2023/07/Picture12-1.png"
+        img: "https://vcsgroupthai.com/webvcs/wp-content/uploads/2023/07/Picture12-1.png"
     },
     {
         name: "บริษัท โอ เอส ทรานสปอร์ต จำกัด",
         address: "เลขที่ 5 ซอย 67 ถนนสุขุมวิท แขวงพระโขนงเหนือ เขตวัฒนา กรุงเทพมหานคร 10110",
         phone: "02-391-4945",
-        img: "http://125.25.57.91:8081/wp-content/uploads/2023/07/Picture7-1.png",
+        img: "https://vcsgroupthai.com/webvcs/wp-content/uploads/2023/07/Picture7-1.png",
         map: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d969.0072922225378!2d100.58862137609114!3d13.71668319701909!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30e29fbbbec74345%3A0xd9e70b4e388f5911!2s1%2F5%20Sukhumvit%2067%20Alley%2C%20Khwaeng%20Phra%20Khanong%20Nuea%2C%20Watthana%2C%20Krung%20Thep%20Maha%20Nakhon%2010110!5e0!3m2!1sen!2sth!4v1696054922395!5m2!1sen!2sth"
     }
 ]
 
 const logos = [
-    "http://125.25.57.91:8081/wp-content/uploads/2023/08/Picture3-2.png",
-    "http://125.25.57.91:8081/wp-content/uploads/2023/08/Picture1-2.png",
-    "http://125.25.57.91:8081/wp-content/uploads/2023/08/Picture2-2.png",
-    "http://125.25.57.91:8081/wp-content/uploads/2023/08/Picture21-1.png",
-    "http://125.25.57.91:8081/wp-content/uploads/2023/08/Picture15-1.png",
-    "http://125.25.57.91:8081/wp-content/uploads/2023/08/Picture4-2.png",
-    "http://125.25.57.91:8081/wp-content/uploads/2023/08/Picture5-1.png",
-    "http://125.25.57.91:8081/wp-content/uploads/2023/08/Picture28.png",
-    "http://125.25.57.91:8081/wp-content/uploads/2023/08/Picture9-1.png",
-    "http://125.25.57.91:8081/wp-content/uploads/2023/08/Picture13-1.png",
-    "http://125.25.57.91:8081/wp-content/uploads/2023/08/Picture7.png",
-    "http://125.25.57.91:8081/wp-content/uploads/2023/08/Picture8.png",
-    "http://125.25.57.91:8081/wp-content/uploads/2023/08/Picture11.png",
-    "http://125.25.57.91:8081/wp-content/uploads/2023/08/Picture16.png",
-    "http://125.25.57.91:8081/wp-content/uploads/2023/08/Picture18.png",
-    "http://125.25.57.91:8081/wp-content/uploads/2023/08/Picture14-1.png",
-    "http://125.25.57.91:8081/wp-content/uploads/2023/08/Picture6.png",
-    "http://125.25.57.91:8081/wp-content/uploads/2023/08/Picture19-1.png",
-    "http://125.25.57.91:8081/wp-content/uploads/2023/08/Picture20.png",
-    "http://125.25.57.91:8081/wp-content/uploads/2023/08/Picture10-1.png",
-    "http://125.25.57.91:8081/wp-content/uploads/2023/08/Picture22-1.png",
-    "http://125.25.57.91:8081/wp-content/uploads/2023/08/Picture26.png",
-    "http://125.25.57.91:8081/wp-content/uploads/2023/08/Picture23-1.png",
-    "http://125.25.57.91:8081/wp-content/uploads/2023/08/Picture24.png",
-    "http://125.25.57.91:8081/wp-content/uploads/2023/08/Picture12-1.png",
-    "http://125.25.57.91:8081/wp-content/uploads/2023/08/Picture25.png",
-    "http://125.25.57.91:8081/wp-content/uploads/2023/08/Picture27.png",
-    "http://125.25.57.91:8081/wp-content/uploads/2023/08/Picture29.png",
-    "http://125.25.57.91:8081/wp-content/uploads/2023/08/Picture17.png"
+    "https://vcsgroupthai.com/webvcs/wp-content/uploads/2023/08/Picture3-2.png",
+    "https://vcsgroupthai.com/webvcs/wp-content/uploads/2023/08/Picture1-2.png",
+    "https://vcsgroupthai.com/webvcs/wp-content/uploads/2023/08/Picture2-2.png",
+    "https://vcsgroupthai.com/webvcs/wp-content/uploads/2023/08/Picture21-1.png",
+    "https://vcsgroupthai.com/webvcs/wp-content/uploads/2023/08/Picture15-1.png",
+    "https://vcsgroupthai.com/webvcs/wp-content/uploads/2023/08/Picture4-2.png",
+    "https://vcsgroupthai.com/webvcs/wp-content/uploads/2023/08/Picture5-1.png",
+    "https://vcsgroupthai.com/webvcs/wp-content/uploads/2023/08/Picture28.png",
+    "https://vcsgroupthai.com/webvcs/wp-content/uploads/2023/08/Picture9-1.png",
+    "https://vcsgroupthai.com/webvcs/wp-content/uploads/2023/08/Picture13-1.png",
+    "https://vcsgroupthai.com/webvcs/wp-content/uploads/2023/08/Picture7.png",
+    "https://vcsgroupthai.com/webvcs/wp-content/uploads/2023/08/Picture8.png",
+    "https://vcsgroupthai.com/webvcs/wp-content/uploads/2023/08/Picture11.png",
+    "https://vcsgroupthai.com/webvcs/wp-content/uploads/2023/08/Picture16.png",
+    "https://vcsgroupthai.com/webvcs/wp-content/uploads/2023/08/Picture18.png",
+    "https://vcsgroupthai.com/webvcs/wp-content/uploads/2023/08/Picture14-1.png",
+    "https://vcsgroupthai.com/webvcs/wp-content/uploads/2023/08/Picture6.png",
+    "https://vcsgroupthai.com/webvcs/wp-content/uploads/2023/08/Picture19-1.png",
+    "https://vcsgroupthai.com/webvcs/wp-content/uploads/2023/08/Picture20.png",
+    "https://vcsgroupthai.com/webvcs/wp-content/uploads/2023/08/Picture10-1.png",
+    "https://vcsgroupthai.com/webvcs/wp-content/uploads/2023/08/Picture22-1.png",
+    "https://vcsgroupthai.com/webvcs/wp-content/uploads/2023/08/Picture26.png",
+    "https://vcsgroupthai.com/webvcs/wp-content/uploads/2023/08/Picture23-1.png",
+    "https://vcsgroupthai.com/webvcs/wp-content/uploads/2023/08/Picture24.png",
+    "https://vcsgroupthai.com/webvcs/wp-content/uploads/2023/08/Picture12-1.png",
+    "https://vcsgroupthai.com/webvcs/wp-content/uploads/2023/08/Picture25.png",
+    "https://vcsgroupthai.com/webvcs/wp-content/uploads/2023/08/Picture27.png",
+    "https://vcsgroupthai.com/webvcs/wp-content/uploads/2023/08/Picture29.png",
+    "https://vcsgroupthai.com/webvcs/wp-content/uploads/2023/08/Picture17.png"
 ]
 
 const logoGrids = [
